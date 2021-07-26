@@ -12,7 +12,7 @@ import * as level from "./level.js";
 
 export const player = new Player(1000,500);
 player.draw();
-let playerDeath = setInterval(function(){if(player.hp < 0){clearInterval(playerDeath); alert("you are dead");location.href = 'index.html'}},1);
+let playerDeath = setInterval(function(){if(player.hp < 0){clearInterval(playerDeath); alert("you are dead -- kills:"+player.totalKills );location.href = 'index.html'}},1);
 
 
 function checkWin(){
