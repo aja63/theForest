@@ -45,8 +45,8 @@ export default class Player{
 		switch(key){
 			case 83: this.w = true; break;
 			case 91: this.a = true; break;
-			case 89: this.s = true; break;
-			case 67: this.d = true; break;
+			case 90: this.s = true; break;
+			case 88: this.d = true; break;
 			case 32: this.attack(); break;
 		}
 	}
@@ -54,8 +54,8 @@ export default class Player{
 		switch(key){
 			case 83: this.w = false; break;
 			case 91: this.a = false; break;
-			case 89: this.s = false; break;
-			case 67: this.d = false; break;
+			case 90: this.s = false; break;
+			case 88: this.d = false; break;
 		}
 	}
 	
