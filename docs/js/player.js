@@ -44,18 +44,18 @@ export default class Player{
 	input(key){
 		switch(key){
 			case 83: this.w = true; break;
-			case 91: this.a = true; break;
-			case 90: this.s = true; break;
-			case 88: this.d = true; break;
+			case 90: this.a = true; break;
+			case 88: this.s = true; break;
+			case 67: this.d = true; break;
 			case 32: this.attack(); break;
 		}
 	}
 	inputStop(key){
 		switch(key){
 			case 83: this.w = false; break;
-			case 91: this.a = false; break;
-			case 90: this.s = false; break;
-			case 88: this.d = false; break;
+			case 90: this.a = false; break;
+			case 88: this.s = false; break;
+			case 67: this.d = false; break;
 		}
 	}
 	
